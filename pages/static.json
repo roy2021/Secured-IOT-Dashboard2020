@@ -1,0 +1,164 @@
+{
+   "automatic":{
+      "metadata":{
+         "description":"It checks all IOT devices and Respond automatically.",
+         "img":"/assets/dashboard.svg",
+         "title":"Automatic Vulnerability Scan For all IOT devices in your house."
+      }
+   },
+   "deviceCheckResult":[
+      {
+         "ipv4":"192.128.1.3",
+         "mac":"00:0a:95:9d:68:16",
+         "message":"Something is off!.",
+         "name":"Alexa",
+         "state":"danger",
+         "test":"Open-Ports",
+         "type":"ai"
+      },
+      {
+         "ipv4":"192.128.1.2",
+         "mac":"00:0a:95:9d:64:27",
+         "message":"Firmware update is available.",
+         "name":"Google Home",
+         "state":"warn",
+         "test":"Firmware",
+         "type":"speaker"
+      },
+      {
+         "ipv4":"192.128.1.4",
+         "mac":"00:0a:77:9d:64:54",
+         "message":"Default password detected.  Change password!",
+         "name":"CC TV",
+         "state":"danger",
+         "test":"Known-Pass",
+         "type":"thermostat"
+      }
+   ],
+   "devices":[
+      {
+         "danger":"Public Access Granted",
+         "ip":1,
+         "mac":"00:0a:95:9d:68:16",
+         "name":"Alexa",
+         "test":"General",
+         "type":"ai",
+         "warning":"Stores Personel data"
+      },
+      {
+         "danger":"Token Expired",
+         "ip":2,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"Google Home",
+         "test":"General",
+         "type":"speaker",
+         "warning":"Deprecated System"
+      },
+      {
+         "danger":"Default Password",
+         "ip":3,
+         "mac":"00:0a:77:9d:64:54",
+         "name":"CC TV",
+         "test":"General",
+         "type":"thermostat",
+         "warning":"Guessable Password"
+      },
+      {
+         "danger":"Fungus in Lens",
+         "ip":4,
+         "mac":"00:0a:95:9g:64:27",
+         "name":"DSLR / SLR",
+         "test":"General",
+         "type":"camera",
+         "warning":"Malfunctioned"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":5,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"plug",
+         "test":"General",
+         "type":"plug",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":6,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"security",
+         "test":"General",
+         "type":"security",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":7,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"router",
+         "test":"General",
+         "type":"router",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":8,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"bulb",
+         "test":"General",
+         "type":"bulb",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":9,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"display",
+         "test":"General",
+         "type":"display",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":10,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"bell",
+         "test":"General",
+         "type":"bell",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":11,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"lock",
+         "test":"General",
+         "type":"lock",
+         "warning":"Weak Data Security Rules"
+      },
+      {
+         "danger":"Not Responding",
+         "ip":12,
+         "mac":"00:0a:95:9d:64:27",
+         "name":"Robot",
+         "test":"General",
+         "type":"other",
+         "warning":"Weak Data Security Rules"
+      }
+   ],
+   "manual":{
+      "metadata":{
+         "description":"It checks all IOT devices based on IP.",
+         "img":"/assets/dashboard.svg",
+         "title":"Manual Search of devices"
+      }
+   },
+   "side-list":{
+      "Automatic Search":"auto",
+      "Manual Search":"manual"
+   },
+   "welcome":{
+      "description":"Place where you feel safe",
+      "img":"/assets/dashboard.svg",
+      "title":"Welcome to your Secured IOT Dashboard"
+   }
+}
